@@ -9,7 +9,6 @@ export const Message = styled.p`
 	}
 `;
 export const Wrapper = styled.div`
-	overflow: scroll;
 	max-height: calc(100% - 35px);
 	user-select: none;
 	@media (max-width: 700px) {
