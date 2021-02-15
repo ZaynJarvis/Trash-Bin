@@ -40,7 +40,7 @@ const App = ({ history }) => {
 				type="number"
 				onChange={e => {
 					if (e.target.value.length === 4)
-						if (e.target.value === '2730')
+						if (e.target.value === '1372')
 							setTimeout(() => {
 								history.push('/load');
 							}, 1000);
